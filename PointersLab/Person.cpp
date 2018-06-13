@@ -3,7 +3,7 @@
 
 Person::Person(int age, int height, int weight, std::string name) 
 {
-	_age - age;
+	_age = age;
 	_height = height;
 	_weight = weight;
 	_name = name;
