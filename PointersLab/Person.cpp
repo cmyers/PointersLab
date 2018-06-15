@@ -11,25 +11,25 @@ Person::Person(int age, int height, int weight, std::string name)
 
 int Person::getAge()
 {
-	return _age;
+	return this->_age;
 }
 
 int Person::getHeight()
 {
-	return _height;
+	return this->_height;
 }
 
 int Person::getWeight()
 {
-	return _weight;
+	return this->_weight;
 }
 
 std::string Person::getName()
 {
-	return _name;
+	return this->_name;
 }
 
 void Person::setName(std::string name)
 {
-	_name = name;
+	this->_name = name;
 }
